@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Nav.css';
 import { Link, NavLink } from 'react-router-dom';
-import Logo from '../../Assets/logo.png';
+import logo from '../../Assets/logo.png';
 import { navLinks, navRight } from '../../Data/Data';
 import { VscMenu } from 'react-icons/vsc';
 import { GrClose } from 'react-icons/gr';
@@ -73,7 +73,7 @@ export default function Nav() {
     <nav>
       <div className="container nav-container">
         <Link to="/" className="logo">
-          <img src={Logo} alt="Logo" />
+          <img src={logo} alt="logo" />
         </Link>
 
         <ul
